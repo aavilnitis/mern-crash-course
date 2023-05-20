@@ -1,0 +1,29 @@
+{
+  "name": "mern-crash-course",
+  "version": "1.0.0",
+  "description": "Goalsetter app developed following Traversy media MERN stack tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aavilnitis/mern-crash-course.git"
+  },
+  "author": "Aleksis Vilnitis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aavilnitis/mern-crash-course/issues"
+  },
+  "homepage": "https://github.com/aavilnitis/mern-crash-course#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
